@@ -1,0 +1,38 @@
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8em;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+.quote {
+  text-align: center;
+  color: grey;
+  font-family: Times, Courier, serif;
+}
+
+#twain {
+  color: blue;
+}
+
+#einstein {
+  color: red;
+}
+
+.box { 
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: right;
+  padding: 10px;
+  margin: 15px;
+}
+#guru {
+  background-color: blue;
+}
+#glinda {
+  background-color: green;
+}

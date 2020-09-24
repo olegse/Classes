@@ -1,0 +1,11 @@
+body {
+  font-family:    "Times";
+  font-size: 110%;
+}
+
+blockquote {
+  #font-family:    "New Roman", Arial, "Serif";
+  color: red;
+  font-size:    2em;
+  background-color:    Blue;
+}

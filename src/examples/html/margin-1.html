@@ -1,0 +1,23 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <title>Margins</title>
+    <meta name="" content="">
+    <style>
+      .box { 
+        font-family: "Liberation Sans";
+        text-align: center;
+        background-color: lightblue;
+        padding: 10px;
+      }
+      #outer { height: 200px; width: 200px; background-color: red }
+      #inner { height: 100px; width: 100px; background-color: green; margin: auto; }
+    </style>
+  </head>
+  <body>
+    <div class="box">I am simple box</div>
+    <div class="box" id="outer"><p>I am outer box</p>
+      <div class="box" id="inner"><p>I am inner box</p> </div>
+    </div>
+  </body>
+</html>
