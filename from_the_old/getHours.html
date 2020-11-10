@@ -1,0 +1,15 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+  <script> 
+    function showHours() {
+      var today = new Date();
+      var hours = today.getHours();
+      document.getElementById("hours").innerHTML = hours;
+    }
+  </script>
+</head>
+<body>
+  <h2>Hours: <span id="hours"></span></h2>
+  <button onclick="showHours()">Click Me!</button>
+</body>

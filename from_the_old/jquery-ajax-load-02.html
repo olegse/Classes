@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div2").load("demo_test.txt #p2");
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Get element of the second paragraph</h2></div>
+<div id="div2"></div>
+
+<button>Get External Content</button>
+
+</body>
+</html>

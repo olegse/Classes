@@ -1,0 +1,19 @@
+
+ Files in a directory...
+
+
+  date.html       form for date
+  _date_fa.php    action script for the date.html form
+
+  dateinterval.php     explore DateInterval class
+
+  _date.php       date() wrapper; makes it possible
+                  to explore relative,date and time specification
+                  formats
+
+
+ To do:
+
+  * understand what [\0\t] is for at the end of meridian regexp
+  * in the date.html point to self created page with all the formats + relative
+  * create a complete web page for choices of dates and regular expressions validation
